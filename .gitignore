@@ -1,0 +1,37 @@
+# JMeter / test results (large, regenerated)
+results/
+*.jtl
+*.log
+
+# Generated reports
+reports/html*/
+reports/generated/
+
+# LoadRunner / VuGen (keep only if used)
+*.idx
+*.bak
+mdrv*
+
+# Secrets (never commit real credentials)
+[Cc]redentials*.csv
+[Cc]redentials*.txt
+[Cc]redentials*.json
+[Pp]assword*.csv
+[Pp]assword*.txt
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+.env
+.env.*
+
+# Dependencies (if using Newman/npm)
+node_modules/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
